@@ -1,5 +1,5 @@
 const fs = require("fs");
-const file = "./input2.json";
+const file = "./input.json";
 
 const input = JSON.parse(fs.readFileSync(file, "utf-8"));
 const { n, k } = input.keys;
